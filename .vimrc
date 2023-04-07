@@ -16,9 +16,9 @@ set linespace=0
 set whichwrap+=<,>,b,s,[,]
 syntax enable
 set regexpengine=0
-set termguicolors
+let g:solarized_termcolors=256
 set background=dark
-colorscheme desert
+colorscheme solarized
 set t_Co=256
 set encoding=utf8
 set ffs=unix
