@@ -17,7 +17,7 @@ set whichwrap+=<,>,b,s,[,]
 syntax enable
 set regexpengine=0
 let g:solarized_termcolors=256
-set background=dark
+set background=light
 colorscheme solarized
 set t_Co=256
 set encoding=utf8
