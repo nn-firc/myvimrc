@@ -25,4 +25,4 @@ set ffs=unix
 set nobackup
 set nowb
 set noswapfile
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
