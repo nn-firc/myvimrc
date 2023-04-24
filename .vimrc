@@ -1,8 +1,7 @@
 set history=10
-set number
 set noexpandtab
 set tabstop=4
-set mouse=a
+set mouse=v
 set autoread
 au FocusGained,BufEnter * checktime
 set smartcase
@@ -16,13 +15,8 @@ set linespace=0
 set whichwrap+=<,>,b,s,[,]
 syntax enable
 set regexpengine=0
-let g:solarized_termcolors=256
-set background=light
-colorscheme solarized
-set t_Co=256
 set encoding=utf8
-set ffs=unix
+set ffs=unix,dos
 set nobackup
 set nowb
 set noswapfile
-set clipboard+=unnamedplus
