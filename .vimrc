@@ -1,7 +1,8 @@
+set number
 set history=10
 set noexpandtab
 set tabstop=4
-set mouse=v
+set mouse=a
 set autoread
 au FocusGained,BufEnter * checktime
 set smartcase
@@ -20,3 +21,4 @@ set ffs=unix,dos
 set nobackup
 set nowb
 set noswapfile
+set clipboard=unnamedplus
